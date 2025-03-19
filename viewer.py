@@ -3,7 +3,7 @@ import numpy as np
 
 
 # Load PCD file
-pcd = o3d.io.read_point_cloud("/drone/data/terrain/CSite1_orig-utm.pcd")
+pcd = o3d.io.read_point_cloud("drone/data/terrain/CSite1_orig-utm.pcd")
 
 # Convert to numpy array
 points = np.asarray(pcd.points)
