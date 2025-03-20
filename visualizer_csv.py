@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Load CSV file into a DataFrame
-df = pd.read_csv("/home/ratu/Desktop/ISRO_drone_project/csv_data/CSite1_orig-utm.csv")
+df = pd.read_csv("csv_data/CSite1_orig-utm.csv")
 points = df.to_numpy()  # Convert to a NumPy array
 
 # Create an Open3D PointCloud from the points
