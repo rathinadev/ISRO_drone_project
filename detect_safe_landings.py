@@ -27,3 +27,4 @@ non_ground_pcd.paint_uniform_color([1, 0, 0])  # Red for obstacles
 
 # Visualize the ground vs obstacles
 o3d.visualization.draw_geometries([ground_pcd, non_ground_pcd], window_name="Ground Segmentation")
+
